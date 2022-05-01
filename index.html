@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="https://kit.fontawesome.com/9ff44405ca.js" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans:400,700">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- Navbar  -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+      <div class="container">
+        <a class="navbar-brand fs-4" href="index.html">Simple University Page</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse fs-5" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white " href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="gallery.html">Gallery</a>
+            </li>
+
+            
+            <li class="nav-item">
+              <a class="nav-link text-white" href="pricing.html">Pricing</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+							<a class="nav-link text-white" href="course.html" id="dropdown-a" data-toggle="dropdown">Course</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="/courses/IT232-oop.html">IT232-Objected Oriented Programming</a>
+								<a class="dropdown-item" href="/courses/IT242-front-end.html">IT242-Front-end Web Development</a>
+								<a class="dropdown-item" href="/courses/IT282-networking.html">IT282-Networking and Data Communication</a>
+                <a class="dropdown-item" href="/courses/IT272-hci.html">IT272-Human and Computer Interaction</a>
+							</div>
+						</li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- Banner Image  -->
+    <div
+      class="banner-image w-100 vh-100 d-flex justify-content-end align-items-center"
+    >
+      <div class="content text-center" style="padding-right: 270px;">
+        <h1 class="text-white-100" style="backdrop-filter: blur(70px);">Simple University Page</h1>
+        <p class="text-white-55" style="backdrop-filter: blur(60px);">“To accomplish great things, we must not only act, but also dream, not only plan, but also believe.”</p>
+      </div>
+    </div>
+
+      <!-- Main Content Area -->
+      <div class="container my-5 d-grid gap-5">
+        <h1 style="text-align: center;">Welcome to Simple University Page</h1>
+        
+        <div class="row align-items-center">
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+              <div class="message-box">
+                  <h3>This is a very simple web page of 2022 Class</h3>
+                  <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p>
+
+                  <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis montes, nascetur ridiculus mus. Sed vitae rutrum neque. </p>
+
+                  <button id="sweetalert" class="btn btn-primary">Learn More</button>
+              </div>
+          </div>
+  
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+              <div class="post-media wow fadeIn">
+                  <img src="img/welcome.jpg" alt="" class="img-fluid img-rounded">
+              </div>
+          </div>
+        </div>
+
+
+        <div class="row align-items-center">
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                      <div class="post-media wow fadeIn">
+                          <img src="img/student-culture.jpg" alt="" class="img-fluid img-rounded">
+                      </div><!-- end media -->
+                  </div><!-- end col -->
+          
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                      <div class="message-box">
+                          <h2>Students Culture</h2>
+                          <p>Students come to school from backgrounds representing diverse cultures. That is certainly an uncontroversial statement. But various guidelines and policies about teacher preparation contain statements regarding knowledge about the student's home culture as well as "culturally appropriate English" into account. (Click here to browse a web page on teacher preparation and certification for ELL students, put together by Stanford students George Bunch and Ken Romeo). </p>
+                          <button id="signup4" class="btn btn-primary">Learn More</button>
+                          <!--<a href="https://www.apiu.edu/"class="btn btn-primary" role="button" id="sweetalert"><span>Learn More</span></a>-->
+                      </div><!-- end messagebox -->
+                  </div><!-- end col -->
+          
+              </div><!-- end row --> 
+      </div>
+  
+      <!-- Testimonal-->
+    <h2 id="#yellow">Testimonials</h2>
+    
+    <div id="myCarousel" class="carousel slide" data-ride="carousel"> 
+    <!-- Wrapper for carousel items -->
+    <div class="carousel-inner">		
+      <div class="carousel-item active">
+        <div class="img-box"><img src="img/alumni.jpg" alt="alumni"></div>
+        <p class="testimonial">Asia-Pacific taught me that learning is not classroom oriented. It is quite involving. “It is like a tree that needs a deep taproot with a network of its lateral roots in order to stand strong,” and Asia-Pacific is a perfect soil to nourish that strong tree to grow."</p>
+        <p class="overview"><b>Mowae Apisuttipanya</b></p>
+        <div class="star-rating">
+          <ul class="list-inline">
+            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+    
+          <!-- Twitter -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+    
+          <!-- Google -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+    
+          <!-- Instagram -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+    
+          <!-- Linkedin -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+    
+          <!-- Github -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:  
+        <a class="text-white" href="https://www.apiu.edu/">apiu.edu</a><br>
+        Designed by <span>Wah</span> <span>Tree</span> <span>Nia</span>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
