@@ -1,5 +1,5 @@
 .banner-image {
-    background-image: url("../img/banner-img.JPG");
+    background-image: url("../img/banner-img.jpg");
     background-size: cover;
   
   }
@@ -422,3 +422,14 @@ span.m_1 {
 	font-size: 18px;
 	color: #ffdc12;
 }
+
+/* Responsive */
+@media screen and (max-width: 820px) {
+	h1.col-md-12 {
+		color:white;
+	}
+
+	p.col-md-12 {
+		color: white;
+	}
+  }
